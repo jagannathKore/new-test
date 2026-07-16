@@ -1,0 +1,11 @@
+{
+  "name": "catalog_categories",
+  "type": "cx_automation",
+  "description": "desc",
+  "entryAgent": null,
+  "slaMinutes": null,
+  "escalationRules": [],
+  "notificationRules": [],
+  "slug": "catalog-categories",
+  "_exportedId": "198b02f3-87ac-4d80-a3f9-a41c178c0b3a"
+}

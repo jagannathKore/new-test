@@ -1,0 +1,130 @@
+{
+  "lockfile_version": "2.0",
+  "generated_at": "2026-07-16T15:48:34.733Z",
+  "agents": {
+    "Automobile_Discovery": {
+      "version": "1.0",
+      "source_hash": "c9848c217d064f85",
+      "status": "active"
+    },
+    "Cart_Wishlist_Management": {
+      "version": "1.0",
+      "source_hash": "d6e017b766ce432a",
+      "status": "active"
+    },
+    "Discovery_Services": {
+      "version": "1.0",
+      "source_hash": "d092a59130ef3096",
+      "status": "active"
+    },
+    "Entry_Supervisor": {
+      "version": "1.0",
+      "source_hash": "c6d95a58dae9f549",
+      "status": "active"
+    },
+    "FAQ_Knowledge": {
+      "version": "1.0",
+      "source_hash": "c695c395dba0b239",
+      "status": "active"
+    },
+    "GENERIC_RENDERING": {
+      "version": "1.0",
+      "source_hash": "64601f5b60cc509c",
+      "status": "active"
+    },
+    "Product_Search_Discovery": {
+      "version": "1.0",
+      "source_hash": "da5baa7154aa0b9b",
+      "status": "active"
+    },
+    "Promotions_Offers": {
+      "version": "1.0",
+      "source_hash": "6938b86d063db178",
+      "status": "active"
+    },
+    "Unified_Checkout": {
+      "version": "1.0",
+      "source_hash": "fc47517c642e0f0a",
+      "status": "active"
+    }
+  },
+  "tools": {
+    "tools/beauty_and_fashion_categories.tools.abl": {
+      "source_hash": "75150b421941ad10"
+    },
+    "tools/beauty_and_fashion_categories_wf.tools.abl": {
+      "source_hash": "5b916b0525f63227"
+    },
+    "tools/render_response.tools.abl": {
+      "source_hash": "612961469ca21e10"
+    },
+    "tools/search_kb_brand_extraction_4556c155.tools.abl": {
+      "source_hash": "c9f0544f2c98799c"
+    },
+    "tools/set_update_profile.tools.abl": {
+      "source_hash": "be2161bfacbe9ec0"
+    }
+  },
+  "configs": {
+    "environment/config-vars.json": {
+      "source_hash": "e06fae15903c373f"
+    }
+  },
+  "connections": {},
+  "guardrails": {},
+  "workflows": {
+    "workflows/render_response.workflow.json": {
+      "source_hash": "e269854558811718"
+    },
+    "workflows/catalog_categories.workflow.json": {
+      "source_hash": "7c8a5b836870a93f"
+    },
+    "workflows/set_update_profile.workflow.json": {
+      "source_hash": "5456dcca679bb690"
+    },
+    "workflows/test.workflow.json": {
+      "source_hash": "269ec3249286e577"
+    },
+    "workflows/versions/render_response/draft.version.json": {
+      "source_hash": "3af73a38bf27a90b",
+      "version": "draft"
+    },
+    "workflows/versions/catalog_categories/draft.version.json": {
+      "source_hash": "cf6d9123f9298c8c",
+      "version": "draft"
+    },
+    "workflows/versions/set_update_profile/draft.version.json": {
+      "source_hash": "06049a913a6f4731",
+      "version": "draft"
+    },
+    "workflows/versions/test/draft.version.json": {
+      "source_hash": "3184bbbdaf04a6f7",
+      "version": "draft"
+    }
+  },
+  "evals": {},
+  "search": {
+    "search/indexes/brand-extraction.index.json": {
+      "source_hash": "92c1c0fe92eccaa2"
+    },
+    "search/knowledge-bases/brand_extraction.kb.json": {
+      "source_hash": "7a09e300046a1506"
+    }
+  },
+  "channels": {},
+  "vocabulary": {},
+  "behavior_profiles": {},
+  "layer_hashes": {
+    "core": "f0e2ed785e314695ef7952a277a438fd2cfd7dfcecf8b63fd9eea08c3adb054a",
+    "connections": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "prompts": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "guardrails": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "workflows": "6e6332ee9f4b0f40628e46bd42e7f906faa24f31edd0875dec80d0348a3a47b0",
+    "evals": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "search": "52a5c35bfadc6c39666185630439019bda25a4d360f54d33735f5a05586a1c8f",
+    "channels": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "vocabulary": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "tables": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "integrity": "fbc873635a21a0d609746aecf455179dc33804de89dbaa116127421ecee8459c"
+}
